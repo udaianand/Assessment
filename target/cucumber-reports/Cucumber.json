@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Test Scenario",
+        "description": "",
+        "id": "login-feature;login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22229414600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25020300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is MercuryTours",
+            "match": {
+              "location": "Steps.title_of_login_page_is_MercuryTours()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601389900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username and password",
+            "match": {
+              "location": "Steps.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5083253300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logins",
+            "match": {
+              "location": "Steps.user_logins()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18856500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Steps.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1123522500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user exits application",
+            "match": {
+              "location": "Steps.user_exits_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "End2End_Test.feature"
+  }
+]

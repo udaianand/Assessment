@@ -1,0 +1,4 @@
+runners\TestRunner.class
+stepDefinitions\Steps.class
+seleniumTests\E2ETest.class
+dataProvider\ConfigFileReader.class
